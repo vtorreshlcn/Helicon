@@ -1,0 +1,49 @@
+Combinaciones de teclas
+
+Ctrl+L puedes ver ubicaciona ctual de directorio
+
+--------------------------------------------------
+instalacion de icono spring tool--
+
+sudo gedit /usr/share/applications/Spring.desktop
+
+
+Contenido --
+[Desktop Entry]
+Name=Spring Tool Suite
+Exec=/home/hlcn/Desktop/Programas/Spring/sts-bundle/sts-3.9.0.RELEASE/STS
+Icon=/home/hlcn/Desktop/Programas/Spring/sts-bundle/sts-3.9.0.RELEASE/icon.xpm
+Terminal=false
+Type=Application
+
+--------------------------------------------------
+comandos iniciar y detenr tomcat 
+
+./startup.sh
+./shutdown.sh
+
+------------------------------------------------
+ sudo apt install gradle
+
+$ mkdir /opt/gradle
+$ unzip -d /opt/gradle-4.0.2-all.zip
+$ ls /opt/gradle/gradle-4.0.2-all
+LICENSE  NOTICE  bin  getting-started.html  init.d  lib  media
+------------------------------------------------
+https://spring.io/guides/gs/scheduling-tasks/#scratch    --- prueba instalacion proyecto
+sudo apt install gradle
+sudo apt install git
+
+(download maven)
+export PATH=/opt/mvn/apache-maven-3.5.0/bin:$PATH
+
+------------------------------------------------
+tar xzf mysql-5.7.19-linux-glibc2.12-i686.tar.gz
+
+sudo apt-get update
+sudo apt-get install mysql-server
+sudo apt-get install mysql-workbench
+
+
+
+grant all privileges on *.* to 'root'@'%' identified by '123';
